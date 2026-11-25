@@ -1,0 +1,33 @@
+{
+  "cover": {
+    "title": "The bond market just hit a 24-year high",
+    "visual": {"stat": "5.3%", "label": "US 10-YEAR TREASURY YIELD · EARLY OCT 2026", "direction": "up", "color": "red"}
+  },
+  "slides": [
+    {"label": "Treasury yields",
+     "body": "The government borrows by selling bonds, and the yield is the interest it pays. The 10-year yield is the benchmark for mortgages, student loans and credit cards.",
+     "source": "Source: CNBC, Nov 24, 2026",
+     "visual": {"type": "columns", "label": "US TREASURY"}},
+    {"label": "How high it went",
+     "body": "The US 30-year yield hit 5.59% on Sept 29, the highest since 2002. The 10-year topped 5.3% in October. The UK 30-year gilt passed 6% on Oct 1.",
+     "source": "Sources: investingLive (Sept 29), FXStreet (Oct 8)",
+     "visual": {"type": "bars", "items": [
+       {"label": "UK 30-YEAR GILT · OVER 6% · HIGHEST SINCE 1998", "value": 6.0},
+       {"label": "US 30-YEAR · 5.59% · HIGHEST SINCE 2002", "value": 5.59},
+       {"label": "US 10-YEAR · ABOUT 5.3% · HIGHEST SINCE 2002", "value": 5.3}],
+       "footnote": "BAR LENGTH = YIELD LEVEL AT PEAK"}},
+    {"label": "Why it happened",
+     "body": "Oil spiked on Iran-related supply fears, with Brent above $100. Inflation worries grew, the Fed kept raising rates, and bond prices fell, pushing yields up.",
+     "source": "Sources: FXStreet (Oct 8), Saxo (Sept 16), AP/Fortune (Sept 1)",
+     "visual": {"type": "big_stat", "top": "BRENT CRUDE · EARLY OCT 2026", "value": "$100+", "caption": "OIL UP · INFLATION FEARS UP · YIELDS UP"}},
+    {"label": "This week",
+     "body": "The 10-year yield slid below 5% as a tech selloff sent money into Treasuries. But the NY Fed's Williams says sticky inflation still points to tighter policy.",
+     "source": "Sources: Federal Reserve H.15, Nuveen, Wisevoter (Nov 24)",
+     "visual": {"type": "line", "title": "US 10-YEAR YIELD · DAILY CLOSE", "ref": {"value": 5.0, "label": "5.00%"},
+       "points": [{"label": "NOV 17", "value": 5.10, "text": "5.10"}, {"label": "NOV 18", "value": 5.07, "text": "5.07"},
+                  {"label": "NOV 19", "value": 5.05, "text": "5.05"}, {"label": "NOV 20", "value": 4.91, "text": "4.91"},
+                  {"label": "NOV 23", "value": 4.92, "text": "4.92"}, {"label": "NOV 24", "value": 4.90, "text": "4.90"}]}}
+  ],
+  "cta": {"title": "Follow for daily market news", "sub": "Share this with someone who invests"},
+  "caption": "The bond market just hit its highest yields in 24 years. 📈\n\nThe US 30-year hit 5.59% on Sept 29, the highest since 2002. The 10-year topped 5.3% in October. This week it slid back below 5% as a tech selloff pushed money into Treasuries.\n\nWhy it matters: the 10-year yield sets the tone for mortgages, student loans and credit cards.\n\nFollow for daily market news.\n\n#bonds #treasuryyields #finance #investing #markets #economy #fed #inflation"
+}

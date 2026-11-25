@@ -91,6 +91,9 @@ def main(spec_path, out):
     css = (f"@font-face{{font-family:'Anton';src:url('file://{fd}/anton/files/anton-latin-400-normal.woff2')}}"
            f"@font-face{{font-family:'Bebas Neue';src:url('file://{fd}/bebas-neue/files/bebas-neue-latin-400-normal.woff2')}}"
            "body{margin:0;background:#05070d}")
+    used = [spec["cover"]["photo"]] + [x["photo"] for x in spec["slides"]] + [spec["cta"]["photo"]]
+    if len(set(used)) != len(used):
+        sys.exit("ERROR: the same photo is used twice - every slide needs its own different photo")
     slides = [cover(spec["cover"])] + [text_slide(s) for s in spec["slides"]] + [cta_slide(spec["cta"])]
     for i, body in enumerate(slides, 1):
         p = f"{out}/s{i}.html"
